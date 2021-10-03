@@ -71,7 +71,7 @@ let Card = {
 function openCard() {
     let random = Math.floor(Math.random() * 21);
     drawCard(random);
-
+    
 }
 
 function drawCard(cardNum) {

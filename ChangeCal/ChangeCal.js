@@ -62,12 +62,12 @@ class ChangeMachine {
         this._changeList._moneys[bankType]._amount = Math.floor(this._change / bankType);
         this._change = this._change % bankType;
         return true;
-
     }
-
 }
 
-
 let changeMachine = new ChangeMachine();
-console.log(changeMachine.buy(0, 452));
+// console.log(changeMachine.buy(0, 452));
+// console.log(changeMachine._history[0].toString());
+
+console.log(changeMachine.buy(5, 100));
 console.log(changeMachine._history[0].toString());

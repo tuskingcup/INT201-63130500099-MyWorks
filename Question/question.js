@@ -148,3 +148,7 @@ console.log(player3.answer(questionSet.getQuestion(5), "A")); //เรียก�
 console.log(player3.answer(questionSet.getQuestion(2), "A"));
 console.log(player3.answer(questionSet.getQuestion(7), "D"));
 console.log(player3.toString()); //แสดงข้อมูล playper3
+
+let player4 = new Player("Tiw");
+console.log(player4.answer(questionSet.getQuestion(5), "B"));
+console.log(player4.toString());
