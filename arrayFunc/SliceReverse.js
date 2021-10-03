@@ -10,7 +10,8 @@ console.log(arr.slice(1, 4)); //  [ 'Amorn', 'Mint', 'Nine' ]
 ///////////////////////////////////////////////////////////////
 console.log('///////////////////////////////////////////////////////////////');
 ///////////////////////////////////////////////////////////////
-//reverse ก็คือ reverse แค่นั้นเลยไม่มีอะไรเลย Ez เกิน
-let arr1 = arr.reverse();
+// reverse ก็คือ reverse แค่นั้นเลยไม่มีอะไรเลย Ez เกิน
 console.log(arr);
-console.log(arr1);
+arr.reverse();
+console.log(arr);
+// reverse มันจะไปเปลี่ยน array original
